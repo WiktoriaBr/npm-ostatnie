@@ -2,6 +2,8 @@
 $font_text:'Oswald', sans-serif;
 $font_title:'Palette Mosaic', cursive;
 $font_subtitle:'Roboto Condensed', sans-serif;
+
+$color_accent:#242F40;
 /*GLOBAL*/
 body
 {
@@ -35,24 +37,28 @@ section
     margin: 20px auto 0 auto;
     padding: 16px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid;
+    border: 2px solid $color_accent;
+    font-family: $font_subtitle;
+    background-color: $color_accent;
+    color: whitesmoke;
 }
 /*NAVIGATION*/
 nav 
 {
     font-weight: bold;
-    padding: 15px 0;
+    padding: 20px 0;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 22px;
 }
 nav i
 {
     font-size: 20px;
     margin: 0;
+    color: $color_accent;
 }
 .navigation ul
 {
@@ -71,35 +77,40 @@ nav i
 {
     text-decoration: none;
     padding: 1px;
+    color: $color_accent;
 }
 
 /*SPLASH*/
 .splash
 {
+    min-height: 650px;
     display: flex;
+    padding-top: 10x;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://images.unsplash.com/photo-1488806374796-a4071c52353b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 }
 .splash_text
 {
-    padding: 25px 20px;
+    margin-top: 70px;
+    padding: 30px 20px;
     text-align: center;
 }
 .splash_subtitle, .slash_title
 {
     margin: 0;
-    padding: 10px;
+    margin: 25px;
 }
 .splash_subtitle
 {
     font-family: $font_subtitle;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
 }
 .slash_title
 {
     font-family: $font_title;
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 40px;
 }
