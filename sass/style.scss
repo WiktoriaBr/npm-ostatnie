@@ -168,9 +168,23 @@ nav i
 }
 .galery_box
 {
-    padding: 30px 25px;
+    padding: 30px 25px;;
+}
+.picture
+{
+    background-color: $color_box;
 }
 .picture img
 {
     width: 100%;
+}
+.description
+{
+    background-color: $color_box;
+    padding: 15px 0;
+    width: 100%;
+}
+.picture p
+{
+    padding: 15px 0;
 }
