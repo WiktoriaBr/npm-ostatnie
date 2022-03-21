@@ -3,7 +3,9 @@ $font_text:'Oswald', sans-serif;
 $font_title:'Palette Mosaic', cursive;
 $font_subtitle:'Roboto Condensed', sans-serif;
 
-$color_accent:#242F40;
+$color_accent:#77BA99;
+$color_black: #111111;
+$color_nav:#242F40;
 /*GLOBAL*/
 body
 {
@@ -58,7 +60,7 @@ nav i
 {
     font-size: 20px;
     margin: 0;
-    color: $color_accent;
+    color: $color_nav;
 }
 .navigation ul
 {
@@ -77,9 +79,8 @@ nav i
 {
     text-decoration: none;
     padding: 1px;
-    color: $color_accent;
+    color: $color_nav;
 }
-
 /*SPLASH*/
 .splash
 {
@@ -113,4 +114,48 @@ nav i
     font-size: 50px;
     line-height: 55px;
     margin-bottom: 40px;
+}
+/*SERVICWS*/
+.section_title
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section_title h4
+{
+    font-size: 40px;
+    line-height: 45px;
+    font-family: $font_title;
+}
+.section_title p
+{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: $font_subtitle;
+    color: gray;
+}
+.sevices_box
+{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+.sevices_box i
+{
+    font-size: 30px;
+    line-height: 30px;
+    color: $color_accent;
+}
+.sevices_box h6
+{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: $font_subtitle;
+}
+.sevices_box p
+{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: $font_text;
+    color: gray;
 }
