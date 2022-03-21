@@ -4,8 +4,10 @@ $font_title:'Palette Mosaic', cursive;
 $font_subtitle:'Roboto Condensed', sans-serif;
 
 $color_accent:#77BA99;
+$color_light_accent:hsla(162, 47%, 86%, 0.672);
 $color_black: #111111;
 $color_nav:#242F40;
+$color_box:rgb(245, 245, 245);
 /*GLOBAL*/
 body
 {
@@ -158,4 +160,17 @@ nav i
     line-height: 20px;
     font-family: $font_text;
     color: gray;
+}
+/*GALERY*/
+.galery 
+{
+    background-color: $color_light_accent;
+}
+.galery_box
+{
+    padding: 30px 25px;
+}
+.picture img
+{
+    width: 100%;
 }
