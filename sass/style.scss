@@ -181,10 +181,43 @@ nav i
 .description
 {
     background-color: $color_box;
-    padding: 15px 0;
+    padding: 15px 5px;
     width: 100%;
 }
 .picture p
 {
     padding: 15px 0;
+}
+/*FOOTER*/
+.social-media
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 5px;
+    padding-left: 160px;
+}
+.social-media_icon
+{
+    display: inline-block;
+    padding: 5px;
+}
+.social-media_icon i
+{
+    color: $color_accent;
+}
+.copyright
+{
+    text-align: left;
+    color: gray;
+    max-width: 200px;
+    margin: 0;
+    font-size: 16px;
+    font-family: $font_text;
+    display: inline-block;
+}
+.empty
+{
+    color: white;
 }
